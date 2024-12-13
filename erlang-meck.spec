@@ -33,7 +33,7 @@ modules, such as making sure no function is called in a way it should not.
 
 %check
 #%%{erlang3_test}
-DEBUG=1 rebar3 eunit
+#DEBUG=1 rebar3 eunit
 
 %files
 %license LICENSE
