@@ -11,6 +11,7 @@ VCS:		git:%{url}.git
 Source0:	%{url}/archive/v%{version}/%{realname}-%{version}.tar.gz
 Patch1:		erlang-meck-0001-Disable-erlang-unite-test-output-highlighting.patch
 BuildRequires:	erlang-hamcrest
+BuildRequires:	erlang-meck
 BuildRequires:	erlang-rebar3
 # WARNING this library calls to unexported cover:compile_beam/2,
 # cover:get_term/1, cover:write/2. It's intentional - it replaces all calls to
@@ -32,7 +33,7 @@ modules, such as making sure no function is called in a way it should not.
 %{erlang3_install}
 
 %check
-#%%{erlang3_test}
+%{erlang3_test}
 #DEBUG=1 rebar3 eunit
 
 %files
