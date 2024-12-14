@@ -10,7 +10,7 @@ URL:		https://github.com/eproxus/%{realname}
 VCS:		git:%{url}.git
 Source0:	%{url}/archive/v%{version}/%{realname}-%{version}.tar.gz
 Patch1:		erlang-meck-0001-Disable-erlang-unite-test-output-highlighting.patch
-Patch1:		erlang-meck-0002-Revert-Support-Erlang-27.0.patch
+Patch2:		erlang-meck-0002-Revert-Support-Erlang-27.0.patch
 BuildRequires:	erlang-hamcrest
 BuildRequires:	erlang-rebar3
 # WARNING this library calls to unexported cover:compile_beam/2,
