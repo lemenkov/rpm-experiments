@@ -4,10 +4,10 @@ Subject: [PATCH] Main
 
 
 diff --git a/fop-core/src/main/java/org/apache/fop/cli/Main.java b/fop-core/src/main/java/org/apache/fop/cli/Main.java
-index a14d20c78..ef11c0839 100644
+index ca9443ade..53c936c88 100644
 --- a/fop-core/src/main/java/org/apache/fop/cli/Main.java
 +++ b/fop-core/src/main/java/org/apache/fop/cli/Main.java
-@@ -215,11 +215,7 @@ public final class Main {
+@@ -207,11 +207,7 @@ public final class Main {
       * @param args the command line parameters
       */
      public static void main(String[] args) {
