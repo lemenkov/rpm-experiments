@@ -1,4 +1,4 @@
-%global gittag r1rv77
+%global gittag r1rv80
 %global classname org.bouncycastle.jce.provider.BouncyCastleProvider
 %global profilen 1.8
 %global profile %(echo %{profilen} | sed "s/\\.//g" )
@@ -6,8 +6,8 @@
 
 Summary:          Bouncy Castle Cryptography APIs for Java
 Name:             bouncycastle
-Version:          1.77
-Release:          3%{?dist}
+Version:          1.80
+Release:          1%{?dist}
 License:          MIT
 URL:              http://www.bouncycastle.org
 
