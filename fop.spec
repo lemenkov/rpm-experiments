@@ -37,6 +37,7 @@ Requires:       javapackages-tools
 BuildRequires:  apache-commons-io
 BuildRequires:  apache-commons-logging
 BuildRequires:  batik
+BuildRequires:  bouncycastle-pkix
 BuildRequires:  fontbox
 BuildRequires:  gnupg2
 BuildRequires:  javapackages-local
