@@ -4,25 +4,22 @@ Subject: [PATCH] Fix up bouncycastle
 
 
 diff --git a/fop-core/pom.xml b/fop-core/pom.xml
-index da9cf9745..e7860303b 100644
+index da9cf9745..62cefc67a 100644
 --- a/fop-core/pom.xml
 +++ b/fop-core/pom.xml
-@@ -113,14 +113,14 @@
+@@ -113,13 +113,13 @@
      </dependency>
      <dependency>
        <groupId>org.bouncycastle</groupId>
 -      <artifactId>bcpkix-jdk15to18</artifactId>
--      <version>1.78.1</version>
 +      <artifactId>bcpkix-jdk18on</artifactId>
-+      <version>1.77</version>
+       <version>1.78.1</version>
        <scope>provided</scope>
      </dependency>
      <dependency>
        <groupId>org.bouncycastle</groupId>
 -      <artifactId>bcprov-jdk15to18</artifactId>
--      <version>1.78.1</version>
 +      <artifactId>bcprov-jdk18on</artifactId>
-+      <version>1.77</version>
+       <version>1.78.1</version>
        <scope>provided</scope>
      </dependency>
-     <dependency>
