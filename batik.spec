@@ -7,7 +7,7 @@ Summary:        Scalable Vector Graphics for Java
 # Automatically converted from old format: ASL 2.0 and W3C - review is highly recommended.
 License:        Apache-2.0 AND W3C
 URL:            https://xmlgraphics.apache.org/batik/
-Source0:        http://archive.apache.org/dist/xmlgraphics/batik/source/batik-src-%{version}.zip
+Source0:	https://archive.apache.org/dist/xmlgraphics/%{name}/source/%{name}-src-%{version}.tar.gz
 Source1:        %{name}-security.policy
 
 BuildArch:      noarch
