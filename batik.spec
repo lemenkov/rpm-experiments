@@ -9,6 +9,7 @@ License:        Apache-2.0 AND W3C
 URL:            https://xmlgraphics.apache.org/batik/
 Source0:	https://archive.apache.org/dist/xmlgraphics/%{name}/source/%{name}-src-%{version}.tar.gz
 Source1:        %{name}-security.policy
+Patch1:		0001-Remove-duplicate-plugin.patch
 
 BuildArch:      noarch
 ExclusiveArch:  %{java_arches} noarch

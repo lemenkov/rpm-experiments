@@ -1,0 +1,24 @@
+From: Simon Steiner <ssteiner@apache.org>
+Date: Fri, 18 Oct 2024 14:11:49 +0100
+Subject: [PATCH] Remove duplicate plugin
+
+
+diff --git a/batik-ttf2svg/pom.xml b/batik-ttf2svg/pom.xml
+index 46893e681..2e76b4543 100644
+--- a/batik-ttf2svg/pom.xml
++++ b/batik-ttf2svg/pom.xml
+@@ -60,14 +60,6 @@
+               <addClasspath>true</addClasspath>
+               <classpathPrefix>lib/</classpathPrefix>
+             </manifest>
+-          </archive>
+-        </configuration>
+-      </plugin>
+-      <plugin>
+-        <groupId>org.apache.maven.plugins</groupId>
+-        <artifactId>maven-jar-plugin</artifactId>
+-        <configuration>
+-          <archive>
+             <manifestEntries>
+               <Automatic-Module-Name>org.apache.xmlgraphics.batik.ttf2svg</Automatic-Module-Name>
+             </manifestEntries>
